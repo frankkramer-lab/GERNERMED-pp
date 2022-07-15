@@ -9,7 +9,7 @@ Key features:
  - Introduction of **transfer-learning** for NER parsing
  - **Open, public access** to models
 
-**Online Demo**: A demo page is available: [Demo](https://gernermedplusplus.misit-augsburg.de/)
+**Online Demo**: A demo page is available: [Demo](https://gernermedplusplus.misit-augsburg.de/); and HuggingFace (see Models section)
 
 NER demonstration:  
 <kbd><img src="./demo.png" alt="NER example demo" width="600"/></kbd>
@@ -19,6 +19,12 @@ The pretrained models can be retrieved from the following URLs:
 - GottBERT-based: [model link](https://myweb.rz.uni-augsburg.de/~freijoha/GERNERMEDpp/GERNERMEDpp_GottBERT.zip)
 - GermanBERT-based: [model link](https://myweb.rz.uni-augsburg.de/~freijoha/GERNERMEDpp/GERNERMEDpp_GermanBERT.zip)
 - SpaCy (slim)-based: [model link](https://myweb.rz.uni-augsburg.de/~freijoha/GERNERMEDpp/GERNERMEDpp_SpaCy.zip)
+
+The models are also available on the HuggingFace platform:
+- GottBERT-based: [HuggingFace link](https://huggingface.co/jfrei/de_GERNERMEDpp_GottBERT)
+- GermanBERT-based: [HuggingFace link](https://huggingface.co/jfrei/de_GERNERMEDpp_GermanBERT)
+- SpaCy (slim)-based: [HuggingFace link](https://huggingface.co/jfrei/de_GERNERMEDpp_Slim)
+
 
 ## Scores
 Note: Metric scores are evaluated by token-wise classification.
