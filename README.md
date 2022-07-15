@@ -75,3 +75,20 @@ unzip model.zip -d "model"
 # Run script
 python3 GERNERMEDpp.py
 ```
+
+## Citation
+
+Please cite the following ArXiv paper from https://arxiv.org/abs/2206.14504
+
+```
+@misc{https://doi.org/10.48550/arxiv.2206.14504,
+  doi = {10.48550/ARXIV.2206.14504},  
+  url = {https://arxiv.org/abs/2206.14504},  
+  author = {Frei, Johann and Frei-Stuber, Ludwig and Kramer, Frank},  
+  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},  
+  title = {GERNERMED++: Transfer Learning in German Medical NLP},  
+  publisher = {arXiv},  
+  year = {2022},  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+```
