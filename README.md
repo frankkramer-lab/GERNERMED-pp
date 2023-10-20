@@ -9,6 +9,8 @@ Key features:
  - Introduction of **transfer-learning** for NER parsing
  - **Open, public access** to models
 
+**Published paper**: Our published paper is available at https://doi.org/10.1016/j.jbi.2023.104513
+
 **Online Demo**: A demo page is available: [Demo](https://gernermedplusplus.misit-augsburg.de/); and HuggingFace (see Models section)
 
 NER demonstration:  
@@ -77,18 +79,32 @@ python3 GERNERMEDpp.py
 ```
 
 ## Citation
+Cite the published paper from https://doi.org/10.1016/j.jbi.2023.104513
+```
+@article{FREI2023104513,
+ title = {GERNERMED++: Semantic annotation in German medical NLP through transfer-learning, translation and word alignment},
+ journal = {Journal of Biomedical Informatics},
+ volume = {147},
+ pages = {104513},
+ year = {2023},
+ issn = {1532-0464},
+ doi = {https://doi.org/10.1016/j.jbi.2023.104513},
+ url = {https://www.sciencedirect.com/science/article/pii/S1532046423002344},
+ author = {Johann Frei and Ludwig Frei-Stuber and Frank Kramer},
+ keywords = {Natural language processing, Medical NLP, Medical named entity recognition, Transfer learning, German NLP, Artificial intelligence},
+}
+```
 
-Please cite the following ArXiv paper from https://arxiv.org/abs/2206.14504
-
+Our ArXiv pre-print paper from https://arxiv.org/abs/2206.14504
 ```
 @misc{https://doi.org/10.48550/arxiv.2206.14504,
-  doi = {10.48550/ARXIV.2206.14504},  
-  url = {https://arxiv.org/abs/2206.14504},  
-  author = {Frei, Johann and Frei-Stuber, Ludwig and Kramer, Frank},  
-  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},  
-  title = {GERNERMED++: Transfer Learning in German Medical NLP},  
-  publisher = {arXiv},  
-  year = {2022},  
-  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+ doi = {10.48550/ARXIV.2206.14504},  
+ url = {https://arxiv.org/abs/2206.14504},  
+ author = {Frei, Johann and Frei-Stuber, Ludwig and Kramer, Frank},  
+ keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},  
+ title = {GERNERMED++: Transfer Learning in German Medical NLP},  
+ publisher = {arXiv},  
+ year = {2022},  
+ copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
 ```
